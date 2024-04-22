@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+                #demoInput {
+                    padding-right: 40px; / space for the buttons /
+                }
+                
+                .btninc
+                {
+                        display: inline-block;
+                        position: relative;
+                        left: 63px;
+                        top: -21px;
+                }
+                
+     </style>
+        
+        <input id=demoInput type=number min=0 max=100>
+        <div class="btn-container">
+            <button class="btninc" onclick="increment()">+</button>
+            <button class="btninc"  onclick="decrement()">-</button>
+        </div>
+        
+        <script>
+           function increment() {
+              document.getElementById('demoInput').stepUp();
+           }
+           function decrement() {
+              document.getElementById('demoInput').stepDown();
+           }
+        </script>
+</body>
+</html>

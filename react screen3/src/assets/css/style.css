@@ -1,0 +1,40 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    background: rgb(197,232,232);
+    background: linear-gradient(90deg, rgba(197,232,232,1) 0%, rgba(246,231,235,1) 43%, rgba(255,195,205,1) 100%);
+
+}
+
+.pt-5
+{
+    padding-top: 50px;
+}
+
+h1,p
+{
+    text-align: center;
+}
+p
+{
+    line-height: 4.5em;
+}
+.box
+{
+    padding:20px;
+    background-color: #ffffff;
+    border: 1px solid #d3c9c9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #9b9595;
+}
+
+.btn-adj
+{
+    border-radius: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}

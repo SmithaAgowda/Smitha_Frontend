@@ -1,0 +1,114 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+header
+{
+    width: 100%;
+    box-shadow: 0px 0px 14px #a39999;
+    background-color: #ffffff;
+    border-top: 3px solid #000000;
+}
+
+.bg-light
+{
+    background-color: #ffffff !important;
+}
+
+.navbar-brand
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-brand span
+{
+    color: #3580cb;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #3580cb;
+    border-bottom: 2px solid #3580cb;
+    font-weight: 700;
+}
+
+main,span,h3
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.wrapper span
+{
+    color: #2b6cd7;
+}
+
+.bg-primary-light
+{
+    background-color: #cce1f7;
+    color: #3580cb;
+}
+.card-body
+{
+    text-align: left;
+}
+
+.card-body p
+{
+    font-size: 16px;
+    color: #706e6e;
+}
+
+.card-body h5
+{
+    font-size: 18px;
+}
+
+.filter-button
+{
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    color: #6b6a6a;
+    margin-bottom: 30px;
+
+}
+.filter img
+{
+    width: 100%;
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    color: #000000;
+    background-color: transparent;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: none;
+    color: #000000;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+img, svg {
+    vertical-align: middle;
+    width: 250px;
+    height:250px;
+    
+}
